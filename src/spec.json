@@ -1,0 +1,293 @@
+{
+  "title": "Gestione dei certificati urbanistici",
+  "description": "Registra le richieste, individua la particella nei piani comunali e prepara il certificato con la destinazione d’uso. Tieni sotto controllo scadenze e pratiche da completare.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro pratiche",
+      "description": "Una vista rapida delle richieste e delle scadenze più vicine.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "8"
+        },
+        {
+          "label": "Controlli del mese",
+          "value": "5"
+        },
+        {
+          "label": "Certificati in scadenza",
+          "value": "3"
+        },
+        {
+          "label": "Pratiche da chiudere",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "CDU-026",
+          "Lotto Nubi, Selva Lieve",
+          "T. Lumo",
+          "18/06/2026",
+          "Da verificare"
+        ],
+        [
+          "CDU-024",
+          "Lotto Vela, Piana Chiara",
+          "T. Arco",
+          "21/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-021",
+          "Lotto Brina, Colle Quieto",
+          "T. Lumo",
+          "25/06/2026",
+          "Piano da consultare"
+        ],
+        [
+          "CDU-019",
+          "Lotto Rivo, Valle Serena",
+          "T. Edera",
+          "28/06/2026",
+          "Pronto per rilascio"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-pratiche",
+      "title": "Registro richieste",
+      "description": "Cerca una pratica o filtra l’elenco per stato. Apri una richiesta per controllare particella e destinazione d’uso.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "CDU-026",
+          "Certificato urbanistico",
+          "Lotto Nubi, Selva Lieve",
+          "T. Lumo",
+          "18/06/2026",
+          "Da verificare"
+        ],
+        [
+          "CDU-025",
+          "Certificato urbanistico",
+          "Lotto Vela, Bosco Quieto",
+          "T. Arco",
+          "20/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-024",
+          "Certificato urbanistico",
+          "Lotto Vela, Piana Chiara",
+          "T. Arco",
+          "21/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-023",
+          "Certificato urbanistico",
+          "Lotto Seta, Campo Lieve",
+          "T. Edera",
+          "23/06/2026",
+          "Piano da consultare"
+        ],
+        [
+          "CDU-022",
+          "Certificato urbanistico",
+          "Lotto Rivo, Fonte Chiara",
+          "T. Lumo",
+          "24/06/2026",
+          "Da verificare"
+        ],
+        [
+          "CDU-021",
+          "Certificato urbanistico",
+          "Lotto Brina, Colle Quieto",
+          "T. Lumo",
+          "25/06/2026",
+          "Piano da consultare"
+        ],
+        [
+          "CDU-020",
+          "Certificato urbanistico",
+          "Lotto Alba, Prato Quieto",
+          "T. Arco",
+          "27/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-019",
+          "Certificato urbanistico",
+          "Lotto Rivo, Valle Serena",
+          "T. Edera",
+          "28/06/2026",
+          "Pronto per rilascio"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "dettaglio-pratica",
+      "title": "Verifica della particella",
+      "description": "Confronta i dati catastali con PAT e PI. Inserisci la destinazione d’uso verificata e prepara il testo del certificato.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "CDU-026",
+          "Certificato urbanistico",
+          "Lotto Nubi, Selva Lieve",
+          "T. Lumo",
+          "18/06/2026",
+          "Da verificare"
+        ],
+        [
+          "CDU-024",
+          "Certificato urbanistico",
+          "Lotto Vela, Piana Chiara",
+          "T. Arco",
+          "21/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-021",
+          "Certificato urbanistico",
+          "Lotto Brina, Colle Quieto",
+          "T. Lumo",
+          "25/06/2026",
+          "Piano da consultare"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "scadenze-controlli",
+      "title": "Scadenze e controlli",
+      "description": "Controlla le richieste in arrivo a scadenza e quelle che attendono una verifica sui piani.",
+      "metrics": [
+        {
+          "label": "Entro 7 giorni",
+          "value": "3"
+        },
+        {
+          "label": "In attesa di verifica",
+          "value": "4"
+        },
+        {
+          "label": "Pronte per rilascio",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Sito",
+        "Controllo da fare",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "CDU-026",
+          "Lotto Nubi, Selva Lieve",
+          "Confermare foglio e mappale",
+          "T. Lumo",
+          "18/06/2026",
+          "Da verificare"
+        ],
+        [
+          "CDU-025",
+          "Lotto Vela, Bosco Quieto",
+          "Confrontare PAT e PI",
+          "T. Arco",
+          "20/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "CDU-023",
+          "Lotto Seta, Campo Lieve",
+          "Verificare destinazione d’uso",
+          "T. Edera",
+          "23/06/2026",
+          "Piano da consultare"
+        ],
+        [
+          "CDU-019",
+          "Lotto Rivo, Valle Serena",
+          "Controllo finale del certificato",
+          "T. Edera",
+          "28/06/2026",
+          "Pronto per rilascio"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra i dati ricevuti. La scadenza viene tenuta sotto controllo entro 30 giorni dalla richiesta.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "verde-oliva",
+    "fonts": "moderno"
+  }
+}
