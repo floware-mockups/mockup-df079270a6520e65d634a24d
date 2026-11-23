@@ -284,10 +284,76 @@
         "Scadenza",
         "Stato"
       ]
+    },
+    {
+      "id": "piano-urbanistico",
+      "title": "Piano urbanistico dimostrativo",
+      "description": "Archivio inventato per provare la consultazione. Nessun valore urbanistico o certificativo.",
+      "metrics": [],
+      "columns": [
+        "Foglio",
+        "Mappale",
+        "Destinazione d’uso",
+        "Zona",
+        "Indicazioni del piano",
+        "Riferimento dimostrativo"
+      ],
+      "rows": [
+        [
+          "12",
+          "145",
+          "Residenziale",
+          "B dimostrativa",
+          "Esempio inventato: completamento del tessuto esistente; verificare parametri edilizi e vincoli prima di ogni valutazione.",
+          "Scheda esempio 01"
+        ],
+        [
+          "12",
+          "208",
+          "Agricola",
+          "E dimostrativa",
+          "Esempio inventato: tutela del paesaggio rurale; interventi subordinati alla verifica delle disposizioni di zona.",
+          "Scheda esempio 02"
+        ],
+        [
+          "18",
+          "76",
+          "Servizi pubblici",
+          "F dimostrativa",
+          "Esempio inventato: area destinata ad attrezzature collettive; verificare le modalità di attuazione.",
+          "Scheda esempio 03"
+        ],
+        [
+          "21",
+          "310",
+          "Produttiva",
+          "D dimostrativa",
+          "Esempio inventato: attività produttive compatibili; verificare fasce di rispetto e prescrizioni ambientali.",
+          "Scheda esempio 04"
+        ]
+      ],
+      "form": [
+        "Foglio",
+        "Mappale",
+        "Destinazione d’uso",
+        "Zona",
+        "Indicazioni del piano",
+        "Riferimento dimostrativo"
+      ]
     }
   ],
   "theme": {
     "palette": "verde-oliva",
     "fonts": "moderno"
-  }
+  },
+  "custom": [
+    {
+      "name": "ConsultazionePianoUrbanistico",
+      "title": "Piano urbanistico comunale",
+      "description": "Ricerca dimostrativa per foglio e mappale sotto gli indicatori.",
+      "role": "section",
+      "pageId": "dashboard",
+      "position": "metrics"
+    }
+  ]
 }
