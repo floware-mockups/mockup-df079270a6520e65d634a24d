@@ -75,7 +75,8 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Foglio e mappale"
       ],
       "rows": [
         [
@@ -84,7 +85,8 @@
           "Lotto Nubi, Selva Lieve",
           "T. Lumo",
           "18/06/2026",
-          "Da verificare"
+          "Da verificare",
+          "Foglio 12, mappale 145"
         ],
         [
           "CDU-025",
@@ -92,7 +94,8 @@
           "Lotto Vela, Bosco Quieto",
           "T. Arco",
           "20/06/2026",
-          "In lavorazione"
+          "In lavorazione",
+          "Foglio 12, mappale 208"
         ],
         [
           "CDU-024",
@@ -100,7 +103,8 @@
           "Lotto Vela, Piana Chiara",
           "T. Arco",
           "21/06/2026",
-          "In lavorazione"
+          "In lavorazione",
+          "Foglio 18, mappale 76"
         ],
         [
           "CDU-023",
@@ -108,7 +112,8 @@
           "Lotto Seta, Campo Lieve",
           "T. Edera",
           "23/06/2026",
-          "Piano da consultare"
+          "Piano da consultare",
+          "Foglio 21, mappale 310"
         ],
         [
           "CDU-022",
@@ -116,7 +121,8 @@
           "Lotto Rivo, Fonte Chiara",
           "T. Lumo",
           "24/06/2026",
-          "Da verificare"
+          "Da verificare",
+          "Foglio 12, mappale 145"
         ],
         [
           "CDU-021",
@@ -124,7 +130,8 @@
           "Lotto Brina, Colle Quieto",
           "T. Lumo",
           "25/06/2026",
-          "Piano da consultare"
+          "Piano da consultare",
+          "Foglio 12, mappale 208"
         ],
         [
           "CDU-020",
@@ -132,7 +139,8 @@
           "Lotto Alba, Prato Quieto",
           "T. Arco",
           "27/06/2026",
-          "In lavorazione"
+          "In lavorazione",
+          "Foglio 18, mappale 76"
         ],
         [
           "CDU-019",
@@ -140,7 +148,8 @@
           "Lotto Rivo, Valle Serena",
           "T. Edera",
           "28/06/2026",
-          "Pronto per rilascio"
+          "Pronto per rilascio",
+          "Foglio 21, mappale 310"
         ]
       ],
       "form": [
